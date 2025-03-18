@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+:root{
+	--menu-hover:#FE8F01;
+	--color-general:#898989;
+	--color-titulos:#282d33;
+	--color-iconos: #e0e0e0;
+	--color-checks:#53c3c9;
+	--bg-gris:#f9f9f9;
+}
+
+body{
+	font-size: 14px;
+	font-family: "Catamaran", sans-serif;
+	color: var(--color-general);
+}
+
+header{
+	background-color: #FFF;
+	padding: 5px 0;
+	border-bottom:1px solid #eee;
+	margin-bottom:10px;
+}
+
+.section{
+	padding: 7% 0;
+}
+
+#hero{
+	padding-top: 3%;
+}
+
+.title{
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.subtitle{
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.color-titulos{
+	color: var(--color-titulos);
+}
+
+#services{
+	background-color: var(--bg-gris);
+}
+
+.iconos{
+	font-size: 80px;
+	color: var(--color-iconos);
+	margin-bottom: 8%;
+}
+
+.fa-check{
+	color: #53c3c9;
+	font-size: 35px;
+}
+
+#cta{
+	color: #fff;
+	background-image: url("../img/using-touchscreen.jpg");
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.20);
+	padding: 10% 5%;
+	font-size: 25px;
+}
+
+#cta h2{
+	font-size: 90px;
+	font-weight: 800;
+}
+
+.btn-light{
+	border-radius: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 10px 25px;
+	margin-top: 3%;
+}
+
+#customers{
+	background-color: var(--bg-gris);
+}
+
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 15px 0;
+	text-align: center;
+}
+
